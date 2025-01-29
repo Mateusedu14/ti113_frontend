@@ -1,7 +1,7 @@
 /* CSS - Pagina3.css */
 
-/* Estilo para a tabela acima da navbar */
-.top-table {
+/* Estilo para a 1ª tabela de cima */
+.tabela-acima {
     width: 100%;
     background-color: #666;
     margin: 0;
@@ -10,137 +10,9 @@
 }
 
 /* Estilo da barra de navegação */
-.navbar {
+.navbar  {
     background-color: #444;
     color: #fff;
-}
-
-
-
-.navbar-bottom table {
-    width: 100%;
     text-align: center;
-    padding: 10px;
 }
 
-.navbar-bottom td {
-    padding: 10px 15px;
-}
-
-.navbar-bottom td:hover {
-    background-color: #555;
-}
-
-/* Container principal */
-.container {
-    width: 90%;
-    margin: 20px auto;
-}
-
-/* Estilo da seção de Destaques */
-.destaques {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.destaques .conteudo {
-    display: flex;
-    align-items: center;
-}
-
-.destaques img {
-    width: 200px;
-    height: auto;
-    margin-right: 20px;
-}
-
-.destaques .texto h3 {
-    margin: 0;
-    color: #333;
-}
-
-.destaques .texto p {
-    color: #555;
-}
-
-.destaques button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-.destaques button:hover {
-    background-color: #0056b3;
-}
-
-/* Estilo para a seção de artigos */
-.artigos {
-    display: flex;
-    justify-content: space-between;
-}
-
-.artigo {
-    background-color: #fff;
-    padding: 20px;
-    width: 48%;
-}
-
-.artigo h2 {
-    color: #333;
-}
-
-.artigo .texto h3 {
-    color: #333;
-}
-
-.artigo .texto p {
-    color: #555;
-}
-
-.artigo button {
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-.artigo button:hover {
-    background-color: #218838;
-}
-
-.mais-artigos {
-    margin-top: 20px;
-}
-
-.mais-artigos ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.mais-artigos li {
-    color: #007bff;
-}
-
-/* Estilo para a seção "Mais Lidos" */
-.mais-lidos {
-    background-color: #fff;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-.mais-lidos h4 {
-    color: #333;
-}
-
-.mais-lidos ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.mais-lidos li {
-    color: #007bff;
-}
