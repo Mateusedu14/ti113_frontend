@@ -1,0 +1,110 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #04112c;
+}
+
+.navbar {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.get-quotes {
+    background: #3367dd;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.fa-solid {
+    background: #f0f0f0;
+    color: black;
+    padding: 20px;
+    border-radius: 90px;
+    border: none;
+    margin: left;
+}
+
+i.fa-angle-down {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.356);
+}
+
+.toggle-mode {
+    background: #f0f0f0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.footer {
+    background: #04112c;
+    color: white;
+    padding: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+.footer-column h3 {
+    font-size: 18px;
+}
+.footer-column p, .footer-column ul, .footer-column li {
+    font-size: 14px;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+.social-icons i {
+    font-size: 20px;
+}
+.newsletter input {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+}
+.newsletter button {
+    background: #305ddb;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
