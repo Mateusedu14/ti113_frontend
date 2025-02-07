@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="ex5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right">
+           <form id="registerForm">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="email" id="email" placeholder="Email address" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <input type="password" id="confirmPassword" placeholder="Confirm password" required>
+                <button type="button" onclick="register()">REGISTER</button>
+            </form>
+            <button class="social-login google"><i class="fab fa-google"></i> SIGN UP WITH GOOGLE</button>
+            <button class="social-login facebook"><i class="fab fa-facebook-f"></i> SIGN UP WITH FACEBOOK</button>
+            <table id="userTable">
+                <thead>
+                    <tr>
+                        <th>Login</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="ex5.js"></script>
+</body>
+</html>

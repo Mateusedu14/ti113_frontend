@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    width: 800px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.left {
+    background-image: url('BGIMG.jpg'); /* Substitua pelo caminho da imagem */
+    background-size: cover;
+    width: 50%;
+}
+.right {
+    padding: 20px;
+    width: 50%;
+}
+input[type=text], input[type=email], input[type=password] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+button.sign-in {
+    background-color: #6c757d;
+}
+button.sign-in:hover {
+    background-color: #5a6268;
+}
+button.social-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #db4437; /* Google color */
+    margin-bottom: 10px;
+}
+button.social-login.facebook {
+    background-color: #3b5998; /* Facebook color */
+}
+button.social-login img {
+    margin-right: 10px;
+}
+table {
+    width: calc(100% - 20px);
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
